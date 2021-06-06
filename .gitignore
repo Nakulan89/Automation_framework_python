@@ -1,1 +1,2 @@
-This file will not add the pyc or __pycache__ directory and make the source file only avaible for the users.
+This file will not add the pyc or __pycache__ directory and make the source file only avaible for the user. This will aviod the user to download
+the byte code indeed protect users from merge conflicts.
