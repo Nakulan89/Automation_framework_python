@@ -6,7 +6,7 @@ LEVELS = {'debug': logging.DEBUG,
           'warning': logging.WARNING,
           'error': logging.ERROR,
           'critical': logging.CRITICAL,
-          }
+
 
 if len(sys.argv) > 1:
     level_name = sys.argv[1]
