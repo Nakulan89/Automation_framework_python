@@ -7,4 +7,5 @@ todos = json.loads(response.text)
 
 print(todos == response.json())
 
+print(todos[:10])
 
