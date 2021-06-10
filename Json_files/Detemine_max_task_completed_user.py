@@ -36,5 +36,10 @@ for user, num_complete in top_users:
 max_users = " and ".join(users)
 
 s = "s" if len(users) > 1 else ""
+print(todos_by_user)
+print(top_users)
+print(max_users)
+print(users)
 print(f"user{s} {max_users} completed {max_complete} TODOS")
+
 
