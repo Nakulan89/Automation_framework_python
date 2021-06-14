@@ -1,7 +1,7 @@
 lower = int(input("Enter the lower integer :"))
 upper = int(input("Enter the upper integer :"))
 
-print("prime number between", lower, "and", upper, "are :",end="")
+print("prime number between", lower, "and", upper, "are :", end="")
 
 for i in range(lower, upper+1):
     if i > 1:
