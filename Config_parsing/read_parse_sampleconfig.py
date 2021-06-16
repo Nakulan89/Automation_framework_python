@@ -6,5 +6,5 @@ parser.read('sample.ini')
 for sect in parser.sections():
     print('Section :', sect)
     for k, v in parser.items(sect):
-        print(' {} : {}'.format(k, v))
+        print(' {} : {}'.format(k.capitalize(), v.capitalize()))
     print()
