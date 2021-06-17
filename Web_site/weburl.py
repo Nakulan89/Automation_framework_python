@@ -5,7 +5,8 @@ import subprocess
 
 
 my_parser = argparse.ArgumentParser(description="get the user value to print number of url", prefix_chars='-')
-my_parser.add_argument('value', type=int, help='number denote the url')
+my_parser.add_argument('value', type=int, help='value is a minimum url present in the txt file. Please enter integer '
+                                               'value in cmd as a argument')
 
 args = my_parser.parse_args()
 
@@ -26,7 +27,7 @@ with open(user_url, "r") as url:
         if required_urls != user_req_url:
             for i in required_urls:
                 count = count + 1
-                if count >= user_value:
+                if count <= user_value:
                     process = subprocess.run(["nslookup", i], stdout=subprocess.PIPE).stdout.decode()
                     print(process)
     else:
