@@ -30,7 +30,7 @@ with open(user_url, "r") as url:
             for i in required_urls:
                 count = count + 1
                 if count <= user_value:
-                    process = subprocess.run(["nslookup", i], stdout=subprocess.PIPE).stdout.decode()
+                    process = subprocess.run(["nslookup", i], stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.decode()
                     print(process)
     else:
         print("File contains only {} url".format(count))

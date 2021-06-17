@@ -1,0 +1,6 @@
+Hi, there I'm just writing this for any example.
+Need to read multiple url and it's IP address
+All the url are in different www.google.com patterns need to read all and get the IP address
+Please read the IP www.linkedin.com address and print it in the excel sheet
+In excel sheet it should be in the www.youtube.com format of serial number, url link and IP address as a heading
+All the required IP with url www.thetimesofindia.com need to be printed in the excel sheet.
