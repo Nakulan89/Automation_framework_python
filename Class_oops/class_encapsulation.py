@@ -20,3 +20,4 @@ c.sell()
 # using setter function
 c.set_max_price(1000)
 c.sell()
+
